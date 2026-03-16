@@ -27,7 +27,7 @@ function App() {
                     <Cli />
                 </div>
             </div>
-            <CliPanel />
+            <CliPanel options={{ position: 'right', isHidden: true }} />
         </CliConfigProvider>
     );
 }
